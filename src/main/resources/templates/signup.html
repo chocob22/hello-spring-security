@@ -52,5 +52,8 @@
         </div>
     </div>
 </div>
+<p class="text-center text-muted small py-3 mt-4 border-top mb-0"
+   th:text="${'실습 수행: ' + #temporals.format(#temporals.createNow(), 'yyyy-MM-dd HH:mm:ss')
+             + '  |  학번: 2171134  |  이름: 권성호'}"></p>
 </body>
 </html>
